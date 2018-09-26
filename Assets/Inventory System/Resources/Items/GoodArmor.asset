@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ce77e7fc0dd4a029a77ee3c5bcc3635, type: 3}
+  m_Name: GoodArmor
+  m_EditorClassIdentifier: 
+  Image: {fileID: 21300000, guid: 4163dbd6d6acc334cb78ff9cb0a84b4b, type: 3}
+  Name: Platemail
+  Material: {fileID: 2100000, guid: 3d2d3b6c95116b940aa5dd66d761ed39, type: 2}
+  PreventionAmount: 100
