@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace UH.Demos.ComponentReuse {
     [RequireComponent(typeof(IMovement))]
@@ -20,6 +22,7 @@ namespace UH.Demos.ComponentReuse {
         private void Awake() {
             _movement = GetComponentInChildren<IMovement>();
             _playerTransform = FindObjectOfType<PlayerController>().transform;
+
         }
 
         private void OnDrawGizmos() {
